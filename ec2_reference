@@ -1,0 +1,14 @@
+# Create ec2 instances
+resource "aws_instance" "web1" {
+  ami           = "ami-0cff7528ff583bf9a"
+  instance_type = 
+  key_name          = 
+  availability_zone = 
+  vpc_security_group_ids      = 
+  subnet_id                   = 
+  associate_public_ip_address = 
+
+  tags = {
+    Name = 
+  }
+}
